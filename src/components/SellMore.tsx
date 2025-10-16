@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CartIcon, LeftArrow } from "./Icons";
+import { LeftArrow } from "./Icons";
 import sales from "@/public/assets/sales.png"
 
 

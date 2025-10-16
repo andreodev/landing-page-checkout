@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CartIcon, Chart, DashboardIcon, GlobalWallet, LeftArrow, MonitorIcon, Terminal } from "./Icons";
+import { Chart, DashboardIcon, GlobalWallet, LeftArrow, MonitorIcon, Terminal } from "./Icons";
 import rocket from "@/public/assets/rocket.png"
 
 

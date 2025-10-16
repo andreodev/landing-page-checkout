@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from "@/public/assets/WiteLabel.png"
-import { ApplePay, CartIcon, PlayStore } from './Icons';
+import { ApplePay, PlayStore } from './Icons';
 
 export default function Footer() {
 
