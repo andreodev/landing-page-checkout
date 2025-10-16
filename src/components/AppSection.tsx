@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Clock, Dashboard, Filters, Message, Settings, StreamLine, Widget } from "./Icons";
+import { Clock, Filters, Message, Settings } from "./Icons";
 import phoneAgent from "@/public/assets/phone.png";
 
 export default function Agent() {
@@ -14,11 +14,13 @@ export default function Agent() {
                 justifyContent: 'center',
             }}
         >
-            {/* Grid background */}
           
 
             <div className="relative max-w-6xl mx-auto w-full">
                 <div className="text-center flex flex-col justify-center items-center rounded-2xl mb-[120px]">
+                    <div className="bg-[#01AEA41A] mb-3 py-2 px-[30px] gap-10 rounded-[79px]  ">
+                        <p className=" text-[#01AEA4] text-2xl text-center">Nova ferramenta</p>
+                    </div>
                     <h2 className="text-[#152538] text-3xl lg:text-[52px] font-medium  leading-tight">
                         Conheça a Wite Recuperation:
                     </h2>

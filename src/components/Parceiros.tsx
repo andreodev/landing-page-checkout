@@ -32,7 +32,7 @@ export default function Parceiros() {
         <section className="flex flex-col items-center my-[90px]  bg-[#FAFAFA]">
             <div className="w-full px-4 sm:px-6 lg:px-0 max-w-6xl">
                 <div className="flex items-center justify-center">
-                    <h1 className="flex items-center text-[#52667E] text-sm sm:text-base">
+                    <h1 className="flex items-center text-[#52667E] text-base sm:text-base">
                         <span className="mr-2">
                             <ShieldPurple />
                         </span>

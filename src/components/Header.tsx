@@ -7,9 +7,9 @@ import Notifications from "./Notifications";
 export default function Header() {
     return (
         <>
-            <div className="relative flex flex-col items-center justify-center text-center min-h-[85vh] sm:min-h-screen overflow-hidden bg-gradient-to-t to-[#8200FE] from-[#5505EC]  ">
+            <div className="relative flex flex-col items-center justify-center text-center min-h-[75vh] sm:min-h-screen overflow-hidden bg-gradient-to-t to-[#8200FE] from-[#5505EC]  ">
                 <div className="  px-4 sm:px-0 ">
-                    <h1 className="text-3xl mt-24 sm:text-[52px] max-w-2xl font-bold bg-clip-text text-transparent bg-white leading-tight">
+                    <h1 className="text-3xl  sm:mt-24 sm:text-[52px] max-w-2xl font-bold bg-clip-text text-transparent bg-white leading-tight">
                         Você vende em qualquer
                         <span className="block">lugar do mundo com</span>
                         <span className="block">o poder da Wite Checkout</span>

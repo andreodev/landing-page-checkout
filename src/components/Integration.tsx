@@ -30,8 +30,8 @@ const FEATURES: Feature[] = [
 
 export default function Integration() {
     return (
-        <section className="w-full bg-[#FAFAFA] my-18 p-5 sm:p-0" id="integracao">
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+        <section className="w-full bg-[#FAFAFA] my-[120px] p-10 sm:p-0" id="integracao">
+            <div className="mx-auto max-w-7xl ">
                 <div className="grid grid-cols-1 items-center gap-y-12 md:grid-cols-3 md:gap-x-12 ">
                     {FEATURES.map(({ title, description, Icon }) => (
                         <article key={title} className="flex items-center gap-5 md:gap-6">

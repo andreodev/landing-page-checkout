@@ -10,17 +10,19 @@ import TheChoice from "@/components/TheChoice";
 import Footer from "@/components/Footer";
 import SellMore from "@/components/SellMore";
 import Solution from "@/components/Solution";
+import Guarantee from "@/components/Guarantee";
 
 export default function Home() {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <Header />
       <Parceiros />
       <Gateway />
       <Language />
       <Solution />
       <Integration />
+      <Guarantee />
       <AppSection />
       <Conversion />
       <TheChoice />
