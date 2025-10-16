@@ -8,7 +8,7 @@ export default function SellMore() {
         <section className="bg-[#FAFAFA] flex flex-col items-center justify-center my-15 sm:my-24 px-4 sm:px-6 lg:px-0">
             <div className="flex w-full max-w-7xl flex-col justify-center items-center rounded-2xl text-[#3B4781]">
                 <div className="flex flex-col items-center gap-6 sm:gap-8 lg:gap-12">
-                    <div className="w-full max-w-[300px] sm:max-w-[400px] lg:max-w-none">
+                    <div className="w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[400px]">
                         <Image
                             src={sales}
                             alt="Sales Illustration"
